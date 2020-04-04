@@ -1,0 +1,19 @@
+{
+  "name": "flycacher",
+  "version": "0.0.1",
+  "description": "Super-simple TTL and capcity-based key-value caching.",
+  "keywords": ["cache", "caching", "key-value", "map", "ttl"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:campbellbrendene/node-flycacher.git",
+  "author": "Brenden Campbell <campbellbrendene@gmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  }
+}

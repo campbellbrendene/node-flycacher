@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "lib": ["ES2015"],
+        "downlevelIteration": true,
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "dist",
+        "module": "CommonJS",
+    },
+    "include": ["**/*.ts"],
+}
